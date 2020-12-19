@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  font-family: "Averia Serif Libre", cursive;
+  background-color: black;
+}
+
+.particles-js-canvas-el,
+#firecracker-container,
+#display,
+.name,
+.image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.particles-js {
+  z-index: 2;
+}
+
+.image {
+  z-index: 0;
+}
+
+.name {
+  color: white;
+  text-align-last: center;
+}
+
+.socials {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  outline: none;
+  z-index: 3;
+  background-color: white;
+}
+
+.socials i {
+  transition: 0.5s;
+  font-size: 48px;
+  color: #ddd;
+  z-index: 3;
+}
+
+#github i:hover {
+  transition: all 0.5s ease;
+  transform: translateY(-15px);
+  color: #000000 !important;
+}
+
+#discord i:hover {
+  transition: all 0.5s ease;
+  transform: translateY(-15px);
+  color: #7289da !important;
+}
+
+.socials i,
+.socials,
+.container h1 {
+  text-decoration: none;
+}
