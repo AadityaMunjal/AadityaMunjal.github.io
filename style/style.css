@@ -22,6 +22,14 @@ body {
   z-index: 1;
 }
 
+#particles-js .content {
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 #particles-js .content h1 {
   color: white;
   text-align: center;
